@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom';
-import { useState, useEffect } from 'react';
+import { useState, useEffect,} from 'react';
 import { IoIosArrowBack } from "react-icons/io";
 import {ImPriceTags} from "react-icons/im";
 import { MdPerson, MdPlace, MdContactPhone} from "react-icons/md";
@@ -10,7 +10,6 @@ export default function Product() {
     const [datetime,setdatetime]= useState("")
     const [loading, setLoading] = useState(true)
     const [game, setgame] = useState([])
-
     useEffect(() => {
       const fetchGame = async () => {
         setLoading(true)
