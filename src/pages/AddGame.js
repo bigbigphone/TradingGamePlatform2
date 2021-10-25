@@ -1,8 +1,7 @@
-import { useState } from 'react'
-import axios from 'axios'
+import { useState } from 'react';
+import axios from 'axios';
 import { IoIosArrowBack } from "react-icons/io";
-import {  Link } from 'react-router-dom'
-import config from "../config/default.json"
+import {  Link } from 'react-router-dom';
 
 export default function AddGame() {
     const [name,setName] = useState('');

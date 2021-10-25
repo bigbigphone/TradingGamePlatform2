@@ -1,10 +1,10 @@
-import { useParams, Link } from 'react-router-dom'
-import { useState, useEffect } from 'react'
+import { useParams, Link } from 'react-router-dom';
+import { useState, useEffect } from 'react';
 import { IoIosArrowBack } from "react-icons/io";
 import {ImPriceTags} from "react-icons/im";
 import { MdPerson, MdPlace, MdContactPhone} from "react-icons/md";
-import Loading from '../components/Loading'
-import config from "../config/default.json"
+import Loading from '../components/Loading';
+import config from "../config/default.json";
 export default function Product() {
     const { id } = useParams()
     const [datetime,setdatetime]= useState("")
@@ -41,7 +41,7 @@ export default function Product() {
         )
     }
     else{
-        const {name, title, price, place, contact, description, date} = game;
+        const {name, title, price, place, contact, description} = game;
         return (
             <main className="Game_Page">
                 <Link to='/' className="back"><IoIosArrowBack/></Link>

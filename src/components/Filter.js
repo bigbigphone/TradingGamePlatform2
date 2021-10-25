@@ -1,6 +1,6 @@
-import { useParams,Link } from 'react-router-dom'
+import { useParams,Link } from 'react-router-dom';
 import { links } from '../data';
-import { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react';
 
 const Filter = () => {
     const { filter } = useParams()
@@ -33,4 +33,4 @@ const Filter = () => {
     )
 }
    
-export default Filter
+export default Filter;

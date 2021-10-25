@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-import GameList from '../components/GameList'
-import Filter from '../components/Filter'
+import GameList from '../components/GameList';
+import Filter from '../components/Filter';
 export default function Home() {
   return (
     <main className="home_content">

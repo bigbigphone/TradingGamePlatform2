@@ -1,5 +1,5 @@
 
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 const SingleGame = ({_id, price, place ,title,type}) => {
     return (
         <Link to={`/game/${_id}`} >

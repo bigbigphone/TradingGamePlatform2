@@ -1,7 +1,7 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef } from 'react';
 import { BiSearch } from "react-icons/bi";
 import SingleGame from './SingleGame';
-import config from "../config/default.json"
+import config from "../config/default.json";
 
 const GameList = ({filter}) => {
     const [search,setSearch] = useState("");
